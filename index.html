@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escritório de advocacia de Paulo Luciano de Oliveira Carlos. Atendimento jurídico especializado e eficiente.">
+    <title>Paulo Luciano de Oliveira Carlos | Sociedade Individual de Advocacia</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2e3a87;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #2e3a87;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .contact-info, .address, .legal-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .address p, .legal-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paulo Luciano de Oliveira Carlos | Sociedade Individual de Advocacia</h1>
+        <p>Assessoria Jurídica de Qualidade</p>
+    </header>
+
+    <nav>
+        <a href="#contatos">Contatos</a>
+        <a href="#endereco">Endereço</a>
+        <a href="#politicas">Políticas</a>
+        <a href="#formulario">Contato</a>
+    </nav>
+
+    <section class="content">
+        <div id="contatos" class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p><strong>Email:</strong> <a href="mailto:contato@pauloluciano.adv.br">contato@pauloluciano.adv.br</a></p>
+            <p><strong>Telefone (Whatsapp):</strong> <a href="tel:+5535991083833">(35) 99108-3833</a></p>
+            <p><strong>Telefone:</strong> <a href="tel:+553538215146">(35) 3821-5146</a></p>
+        </div>
+
+        <div id="endereco" class="address">
+            <h2>Endereço</h2>
+            <p><strong>Logradouro:</strong> Avenida Padre Dehon, 260</p>
+            <p><strong>Complemento:</strong> Sala 307</p>
+            <p><strong>Bairro:</strong> Centro</p>
+            <p><strong>CEP:</strong> 37200-000</p>
+            <p><strong>Município:</strong> Lavras</p>
+            <p><strong>Estado:</strong> Minas Gerais</p>
+        </div>
+
+        <div id="politicas" class="legal-info">
+            <h2>Políticas de Privacidade e Cookies</h2>
+            <p>Este site respeita a sua privacidade e utiliza cookies para melhorar a experiência do usuário. Ao continuar navegando, você concorda com nossa Política de Privacidade e uso de cookies.</p>
+            <p><a href="politica-privacidade.html">Leia nossa Política de Privacidade</a></p>
+            <p><a href="politica-cookies.html">Leia nossa Política de Cookies</a></p>
+        </div>
+
+        <div id="formulario" class="contact-form">
+            <h2>Formulário de Contato</h2>
+            <form action="mailto:contato@pauloluciano.adv.br" method="POST" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Paulo Luciano de Oliveira Carlos | Sociedade Individual de Advocacia</p>
+        <p><a href="#contatos">Voltar ao topo</a></p>
+    </footer>
+</body>
+</html>
